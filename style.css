@@ -1,4 +1,4 @@
-#box{
+/* #box{
     background-color: blue;
 }
 .heading{
@@ -6,4 +6,14 @@
 }
 button{
     background-color: green;
+} */
+h1{
+    text-align: center;
+    text-decoration: line-through;
+}
+p{
+    text-align: start;
+}
+a{
+    text-decoration: none;
 }
