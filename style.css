@@ -7,13 +7,28 @@
 button{
     background-color: green;
 } */
-h1{
+
+
+/* h1{
     text-align: center;
-    text-decoration: line-through;
+    text-decoration-line: underline overline;
 }
 p{
     text-align: start;
 }
 a{
     text-decoration: none;
+} */
+
+#head1{
+    font-weight: normal;
+}
+#head2{
+    font-weight: 100;
+}
+#head3{
+    font-weight: 600;
+}
+#head4{
+    font-weight: 900;
 }
