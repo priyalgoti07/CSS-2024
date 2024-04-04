@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="Position.css">
+</head>
+
+<body>
+    <p>The Position CSS property sets how an elemet is positioned in a documnet</p>
+    <p>Position: static / relative/ absolue/ fixed</p>
+    <h1>Position Playground</h1>
+    <div id="box1" style="background-color: rgb(219, 84, 84);">
+        <h4>static(byDefault)</h4>
+        <p>
+            default Position(The top, right, bottom,left,and z-index have no effect)
+        </p>
+    </div>
+    <div id="box2" style="background-color: rgb(40, 197, 34);">
+        <h4>relative</h4>
+        <p>elemnt is relative to itself (The top, right, bottom,left,and z-index will work)</p>
+    </div>
+    <div id="box3" style="background-color: rgb(139, 119, 228);">
+        <h4>absolute</h4>
+        <p>Positioned relative ti its closest <span style=" text-decoration-line: underline; text-decoration-color : rgb(231, 14, 14)">ancestor(parent element)</span> </p>
+    </div>
+    <div id="box4" style="background-color: rgb(197, 104, 18);">
+        <h4>fixed</h4>
+        <p>positioned relative to browser. (removed from flow)</p>
+    </div>
+</body>
+
+</html>
