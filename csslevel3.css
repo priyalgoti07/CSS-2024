@@ -1,0 +1,22 @@
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+#box2{
+    /* height: 50px; */
+    /* width: 30%; */
+    background-color: yellow;
+    /* margin-left: 20%; */
+    font-size: 2em;
+    /* width: 5em; */
+    /* font-size: 0.5em;   0.5 em is the parent's front half  */
+    /* 2 times parent's front Size */
+    width: 5rem;
+    /* rem is the root(outer) level css releted set to the css  */
+    height: 50vh;
+    /* relative to 1% viewport(browser) height */
+    width: 10vw;
+    /* relative to 1% viewport(browser) width*/
+}
