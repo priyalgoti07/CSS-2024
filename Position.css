@@ -14,15 +14,17 @@ div{
     left: 10px;
 }
 #box3{
-    position: absolute;
-    top: 10px;
-    left: 20px;
+    position: sticky;
+    top: 0;
+    /* top: 10px; */
+    /* left: 20px; */
 }
 #box4{
     position: fixed;
-    right: 10px;
-    bottom: 0;
-    width: 100%;
+    top: 0;
+    left: 10px;
+    /* bottom: 0;
+    width: 100%; */
 }
 h4{
     text-align: center;
