@@ -8,20 +8,28 @@ div{
     display: inline-block;
 }
 #container{
-    width: 800px;
-    height: 200px;
+    width: 600px;
+    height: 300px;
     display: flex;
-    /* flex-direction: row-reverse; */
-    /* flex-direction: column; */
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-content: flex-start; */
 }
 #box1{
     background-color: aqua;
+    flex-grow: 1;
 }
 #box2{
     background-color: pink;
+    height: 200px;
+    /* flex-shrink: 0; */
+    flex-grow: 2;
 }
 #box3{
     background-color: darkkhaki;
+    height: 75px;
 }
 #box4{
     background-color:indianred;

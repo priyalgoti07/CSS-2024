@@ -1,0 +1,31 @@
+/* div{
+    background-color: rgb(250, 197, 206);
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+ul{
+    background-color: pink;
+} */
+
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+li{
+    list-style: none;
+    /* background-color: white; */
+}
