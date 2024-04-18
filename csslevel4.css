@@ -2,18 +2,18 @@ body{
     text-align: center;
 }
 div{
-    height: 100px;
+    height: 50px;
     width: 50px;
     border: 2px solid black;
     display: inline-block;
 }
 #container{
-    width: 600px;
+    width: 800px;
     height: 300px;
     display: flex;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     justify-content: center;
-    /* flex-wrap: wrap; */
     align-items: flex-start;
     /* align-content: flex-start; */
 }
@@ -24,8 +24,11 @@ div{
 #box2{
     background-color: pink;
     height: 200px;
-    /* flex-shrink: 0; */
     flex-grow: 2;
+    /* flex-grow: 1; */
+    /* flex-shrink: 0.5; */
+    /* align-self: flex-end; */
+ 
 }
 #box3{
     background-color: darkkhaki;
@@ -36,4 +39,5 @@ div{
 }
 #box5{
     background-color:slateblue;
+    /* align-self: flex-end; */
 }
