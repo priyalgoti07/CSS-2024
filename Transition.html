@@ -15,13 +15,22 @@
             transition-duration: 2s;
             transition-timing-function: ease-in;
             transition-delay: 1s; */
-            transition: all 2s ease-in 1s;
+            /* transition: all 2s ease-in 1s; */
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            /* transform: rotate(90deg); */
+            /* transform: scale(2); */
+            transition: all 2s ease-in;
         }
 
         div:hover {
             background-color: red;
             color: wheat;
-            font-size: 25px;
+            /* font-size: 25px;
+            transform: scaleX(4); */
+            /* transform: scaleY(2) */
+            transform: rotate(180deg);
         }
 
         div:active {
